@@ -6,7 +6,7 @@ import time
 import readdata
   
 client = mqtt.Client()
-client.username_pw_set("CuOkY4nZsqUmIfBkD6Eo","xxx")
+client.username_pw_set("BykBe22K0A3EdJOw7gxs","xxx")
 client.connect("thingsboard.cloud", 1883, 60)
 
 def job():  
